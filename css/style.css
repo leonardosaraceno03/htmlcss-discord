@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: grey;
+    height: 500px;
+    width:auto;
+ 
+}
+nav{
+    background-color:lightgreen;
+    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.red-box{
+    background-color: red;
+    height: 100px;
+    width: 200px;  
+}
+.orange-box{
+    background-color: orange;
+    height: 400px;
+    margin: 0 auto;
+    width: 80%;
+}
+.lightgreen-box{
+    background-color: lightgreen;
+    height:300px;
+    width: 450px;
+    
+
+}
+
+.green-box{
+    background-color: green;
+    height:300px;
+    width: 450px;
+
+}
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+        width: 80%;
+        margin: auto;
+    
+    
+}
+.section-2{
+    background-color: gray;
+   display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+.section-main{
+    background-color: grey;
+}
+    
+    
+    
+
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.section-4{
+    background-color: gray;
+    margin: 0 auto;
+    
+}
+.rect-green{
+    background-color: green;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+}
+.rect-lightgreen{
+    background-color: lightgreen;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+}
+.rect-darkgreen{
+    background-color: darkgreen;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    }
+.rect-lightcoral{
+    width: 25%;
+    height: 800px;
+    background-color: lightcoral;
+}
+.rect-red{
+    width: 25%;
+    height: 800px;
+    background-color: red; 
+}
+.rect-darkred{
+    width: 25%;
+    height: 800px;
+    background-color: darkred; 
+}
+.rect-blue{
+    width: 200px;
+    height: 100px;
+    background-color: blue; 
+}
+.end-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue;
+}
